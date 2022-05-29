@@ -22,3 +22,8 @@ int main()
 
     return 0;
 }
+
+// output:
+// Enter the cost price of an item:300
+// Enter the selling price of an item:350
+// Profit:50.00
