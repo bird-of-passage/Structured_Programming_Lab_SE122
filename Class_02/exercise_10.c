@@ -23,35 +23,35 @@ int main()
 
     if (result >= 80 && result <= 100)
     {
-        printf("proint: 4.00\tGrade: A+\n");
+        printf("point: 4.00\tGrade: A+\n");
     }
     else if (result >= 75 && result <= 79)
     {
-        printf("proint: 3.75\tGrade: A\n");
+        printf("point: 3.75\tGrade: A\n");
     }
     else if (result >= 70 && result <= 74)
     {
-        printf("proint: 3.50\tGrade: A-\n");
+        printf("point: 3.50\tGrade: A-\n");
     }
     else if (result >= 65 && result <= 69)
     {
-        printf("proint: 3.25\tGrade: B+\n");
+        printf("point: 3.25\tGrade: B+\n");
     }
     else if (result >= 60 && result <= 64)
     {
-        printf("proint: 3.00\tGrade: B\n");
+        printf("point: 3.00\tGrade: B\n");
     }
     else if (result >= 55 && result <= 59)
     {
-        printf("proint: 2.75\tGrade: B-\n");
+        printf("point: 2.75\tGrade: B-\n");
     }
     else if (result >= 50 && result <= 54)
     {
-        printf("proint: 2.50\tGrade: C+\n");
+        printf("point: 2.50\tGrade: C+\n");
     }
     else if (result >= 45 && result <= 49)
     {
-        printf("proint: 2.25\tGrade: C\n");
+        printf("point: 2.25\tGrade: C\n");
     }
     else
     {
@@ -68,4 +68,4 @@ int main()
 // Enter marks of presentation(0-8): 7
 // Enter marks of Mid-term exam(0-25): 22
 // Enter marks of Final exam(0-40): 35
-// proint: 4.00    Grade: A+
+// point: 4.00    Grade: A+
