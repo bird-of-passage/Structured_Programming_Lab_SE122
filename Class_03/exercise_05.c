@@ -17,8 +17,7 @@ int main()
         }
     }
 
-    if (count == 0\
-    ])
+    if (count == 0)
     {
 
         printf("Prime Number");
@@ -31,3 +30,10 @@ int main()
 
     return 0;
 }
+
+// output:
+// Enter any positive number:4
+// Not Prime Number
+
+// Enter any positive number:7
+// Prime Number

@@ -1,20 +1,24 @@
 #include <stdio.h>
 int main()
 {
-    int i, n = 2;
-
-    for (i = 1; i <= 20; i++)
+    int i, j, rows;
+    printf("Enter the number of rows: ");
+    scanf("%d", &rows);
+    for (i = 1; i <= rows; ++i)
     {
-
-        if (i == n)
+        for (j = 1; j <= i; ++j)
         {
-
-            n = n + 2;
-            continue;
+            printf("%d ", j);
         }
-
-        printf("%d\n", i);
+        printf("\n");
     }
-
     return 0;
 }
+
+// output:
+// Enter the number of rows: 5
+// 1
+// 1 2
+// 1 2 3
+// 1 2 3 4
+// 1 2 3 4 5
